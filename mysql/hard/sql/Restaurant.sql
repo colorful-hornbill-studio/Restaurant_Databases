@@ -172,79 +172,73 @@ CREATE TABLE IF NOT EXISTS `Menu` (
     FOREIGN KEY(`Cuisine_ID`) REFERENCES `Cuisine`(`ID`)
 ) ENGINE = InnoDB;
 
-LOAD DATA INFILE 'C:\\xampp\\htdocs\\restaurant-databases\\mysql\\hard\\csv\\General_Restaurant_Info.csv' IGNORE INTO TABLE `General_Restaurant_Info`
+LOAD DATA INFILE 'C:\\xampp\\htdocs\\Restaurant_Databases\\mysql\\hard\\csv\\General_Restaurant_Info.csv' IGNORE INTO TABLE `General_Restaurant_Info` 
+        FIELDS TERMINATED BY ',' 
+        ENCLOSED BY '\'' 
+        ESCAPED BY '\\' 
+    LINES TERMINATED BY '\r\n';
+
+LOAD DATA INFILE 'C:\\xampp\\htdocs\\Restaurant_Databases\\mysql\\hard\\csv\\Restaurant_Info_in_Normal_Week_1.csv' IGNORE INTO TABLE `Restaurant_Info_in_Normal_Week_1`
     FIELDS TERMINATED BY ','
         ENCLOSED BY '\''
         ESCAPED BY '\\'
     LINES TERMINATED BY '\r\n';
 
-LOAD DATA INFILE 'C:\\xampp\\htdocs\\restaurant-databases\\mysql\\hard\\csv\\Current_Restaurant_Status.csv' IGNORE INTO TABLE `Current_Restaurant_Status`
+LOAD DATA INFILE 'C:\\xampp\\htdocs\\Restaurant_Databases\\mysql\\hard\\csv\\Restaurant_Info_in_Normal_Week_2.csv' IGNORE INTO TABLE `Restaurant_Info_in_Normal_Week_2`
     FIELDS TERMINATED BY ','
         ENCLOSED BY '\''
         ESCAPED BY '\\'
     LINES TERMINATED BY '\r\n';
 
-LOAD DATA INFILE 'C:\\xampp\\htdocs\\restaurant-databases\\mysql\\hard\\csv\\Restaurant_Info_in_Normal_Week_1.csv' IGNORE INTO TABLE `Restaurant_Info_in_Normal_Week_1`
+LOAD DATA INFILE 'C:\\xampp\\htdocs\\Restaurant_Databases\\mysql\\hard\\csv\\Restaurant_Info_in_Special_Week_1.csv' IGNORE INTO TABLE `Restaurant_Info_in_Special_Week_1`
     FIELDS TERMINATED BY ','
         ENCLOSED BY '\''
         ESCAPED BY '\\'
     LINES TERMINATED BY '\r\n';
 
-LOAD DATA INFILE 'C:\\xampp\\htdocs\\restaurant-databases\\mysql\\hard\\csv\\Restaurant_Info_in_Normal_Week_2.csv' IGNORE INTO TABLE `Restaurant_Info_in_Normal_Week_2`
+LOAD DATA INFILE 'C:\\xampp\\htdocs\\Restaurant_Databases\\mysql\\hard\\csv\\Restaurant_Info_in_Special_Week_2.csv' IGNORE INTO TABLE `Restaurant_Info_in_Special_Week_2`
     FIELDS TERMINATED BY ','
         ENCLOSED BY '\''
         ESCAPED BY '\\'
     LINES TERMINATED BY '\r\n';
 
-LOAD DATA INFILE 'C:\\xampp\\htdocs\\restaurant-databases\\mysql\\hard\\csv\\Restaurant_Info_in_Special_Week_1.csv' IGNORE INTO TABLE `Restaurant_Info_in_Special_Week_1`
+LOAD DATA INFILE 'C:\\xampp\\htdocs\\Restaurant_Databases\\mysql\\hard\\csv\\Level.csv' IGNORE INTO TABLE `Level`
     FIELDS TERMINATED BY ','
         ENCLOSED BY '\''
         ESCAPED BY '\\'
     LINES TERMINATED BY '\r\n';
 
-LOAD DATA INFILE 'C:\\xampp\\htdocs\\restaurant-databases\\mysql\\hard\\csv\\Restaurant_Info_in_Special_Week_2.csv' IGNORE INTO TABLE `Restaurant_Info_in_Special_Week_2`
+LOAD DATA INFILE 'C:\\xampp\\htdocs\\Restaurant_Databases\\mysql\\hard\\csv\\User.csv' IGNORE INTO TABLE `User`
     FIELDS TERMINATED BY ','
         ENCLOSED BY '\''
         ESCAPED BY '\\'
     LINES TERMINATED BY '\r\n';
 
-LOAD DATA INFILE 'C:\\xampp\\htdocs\\restaurant-databases\\mysql\\hard\\csv\\Level.csv' IGNORE INTO TABLE `Level`
+LOAD DATA INFILE 'C:\\xampp\\htdocs\\Restaurant_Databases\\mysql\\hard\\csv\\Order.csv' IGNORE INTO TABLE `Order`
     FIELDS TERMINATED BY ','
         ENCLOSED BY '\''
         ESCAPED BY '\\'
     LINES TERMINATED BY '\r\n';
 
-LOAD DATA INFILE 'C:\\xampp\\htdocs\\restaurant-databases\\mysql\\hard\\csv\\User.csv' IGNORE INTO TABLE `User`
+LOAD DATA INFILE 'C:\\xampp\\htdocs\\Restaurant_Databases\\mysql\\hard\\csv\\Table.csv' IGNORE INTO TABLE `Table`
     FIELDS TERMINATED BY ','
         ENCLOSED BY '\''
         ESCAPED BY '\\'
     LINES TERMINATED BY '\r\n';
 
-LOAD DATA INFILE 'C:\\xampp\\htdocs\\restaurant-databases\\mysql\\hard\\csv\\Order.csv' IGNORE INTO TABLE `Order`
+LOAD DATA INFILE 'C:\\xampp\\htdocs\\Restaurant_Databases\\mysql\\hard\\csv\\Reserved_Tables.csv' IGNORE INTO TABLE `Reserved_Tables`
     FIELDS TERMINATED BY ','
         ENCLOSED BY '\''
         ESCAPED BY '\\'
     LINES TERMINATED BY '\r\n';
 
-LOAD DATA INFILE 'C:\\xampp\\htdocs\\restaurant-databases\\mysql\\hard\\csv\\Table.csv' IGNORE INTO TABLE `Table`
+LOAD DATA INFILE 'C:\\xampp\\htdocs\\Restaurant_Databases\\mysql\\hard\\csv\\Cuisine.csv' IGNORE INTO TABLE `Cuisine`
     FIELDS TERMINATED BY ','
         ENCLOSED BY '\''
         ESCAPED BY '\\'
     LINES TERMINATED BY '\r\n';
 
-LOAD DATA INFILE 'C:\\xampp\\htdocs\\restaurant-databases\\mysql\\hard\\csv\\Reserved_Tables.csv' IGNORE INTO TABLE `Reserved_Tables`
-    FIELDS TERMINATED BY ','
-        ENCLOSED BY '\''
-        ESCAPED BY '\\'
-    LINES TERMINATED BY '\r\n';
-
-LOAD DATA INFILE 'C:\\xampp\\htdocs\\restaurant-databases\\mysql\\hard\\csv\\Cuisine.csv' IGNORE INTO TABLE `Cuisine`
-    FIELDS TERMINATED BY ','
-        ENCLOSED BY '\''
-        ESCAPED BY '\\'
-    LINES TERMINATED BY '\r\n';
-
-LOAD DATA INFILE 'C:\\xampp\\htdocs\\restaurant-databases\\mysql\\hard\\csv\\Menu.csv' IGNORE INTO TABLE `Menu`
+LOAD DATA INFILE 'C:\\xampp\\htdocs\\Restaurant_Databases\\mysql\\hard\\csv\\Menu.csv' IGNORE INTO TABLE `Menu`
     FIELDS TERMINATED BY ','
         ENCLOSED BY '\''
         ESCAPED BY '\\'
