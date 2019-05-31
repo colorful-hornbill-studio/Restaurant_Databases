@@ -12,8 +12,7 @@ Ready to serve Databases to study.
    - [Requirements](#requirements)
    - [Installation](#installation)
    - [Usage](#usage)
-   - [Previews](#previews)
-     - [Screenshots](#screenshots)
+   - [Screenshots](#screenshots)
 4. [Credits](#credits)
 5. [License](#license)
 
@@ -35,9 +34,7 @@ Ready to serve Databases to study.
 
 1. Use Dia Diagram Editor to see ERD in file ```C:\xampp\htdocs\Restaurant_Databases\mysql\hard\documentations\ERD.dia```.
 
-### Previews
-
-#### Screenshots
+### Screenshots
 
 ![ERD Screenshots](https://justanaivedreamer.files.wordpress.com/2019/03/capture4.png)
 ![ERD Screenshots](https://justanaivedreamer.files.wordpress.com/2019/03/capture5.png)
