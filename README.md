@@ -27,13 +27,13 @@ Ready to serve Databases to study.
 ### Installation
 
 1. Extract file ```Restaurant_Databases-master.zip``` to ```C:\xampp\htdocs```.
-2. Rename folder ```Restaurant_Databases-master.zip``` to ```Restaurant_Databases```.
+2. Rename folder ```Restaurant_Databases-master``` to ```restaurant-databases```.
 3. Open ```phpmyadmin``` page.
-4. Import database ```Restaurant``` from ```C:\xampp\htdocs\Restaurant_Databases\mysql\hard\sql\Restaurant.sql```.
+4. Import database ```restaurant``` from ```C:\xampp\htdocs\restaurant-databases\sql\mysql\hard\Restaurant.sql```.
 
 ### Usage
 
-1. Use Dia Diagram Editor to see ERD in file ```C:\xampp\htdocs\Restaurant_Databases\mysql\hard\documentations\ERD.dia```.
+1. Click at ```restaurant``` database to begin work.
 
 ### Screenshots
 
