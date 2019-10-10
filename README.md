@@ -48,7 +48,7 @@ Ready to serve Databases to study.
 
 ## Credits
 
-1. [A Naive Dreamer](https://github.com/A-Naive-Dreamer)
+1. [Atallabela Yosua](https://github.com/A-Naive-Dreamer)
 
 ## License
 
